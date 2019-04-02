@@ -31,7 +31,6 @@ namespace WebAppEmployeesV2.Controllers
         public ActionResult EmployeeView(string EmployeeName, string EmployeeLastName, Employee employee)
         {
             // now user.username has the value that user entered on form
-
             employee.name = EmployeeName;
             employee.LastName = EmployeeLastName;
 
